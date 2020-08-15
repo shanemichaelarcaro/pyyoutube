@@ -3,7 +3,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 from pytube import YouTube
 import platform, subprocess, os
-import tkinter as tk
 
 class YTDownload:
     def __init__(self, file_path, output_folder):
